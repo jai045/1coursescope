@@ -347,8 +347,131 @@ DEPARTMENTS = {
     'ENGR': {
         'name': 'Engineering',
         'url': 'https://catalog.uic.edu/ucat/course-descriptions/engr/'
+    },
+    'ACTG': {
+        'name': 'Accounting',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/actg/'
+    },
+    'AH': {
+        'name': 'Art History',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ah/'
+    },
+    'AHS': {
+        'name': 'Applied Health Sciences',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ahs/'
+    },
+    'ANTH': {
+        'name': 'Anthropology',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/anth/'
+    },
+    'ARCH': {
+        'name': 'Architecture',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/arch/'
+    },
+    'BA': {
+        'name': 'Business Administration',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ba/'
+    },
+    'BIOE': {
+        'name': 'Bioengineering',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/bioe/'
+    },
+    'BIOS': {
+        'name': 'Biological Sciences',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/bios/'
+    },
+    'BHIS': {
+        'name': 'Biomedical & Health Information Sciences',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/bhis/'
+    },
+    'BLST': {
+        'name': 'Black Studies',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/blst/'
+    },
+    'BSTT': {
+        'name': 'Biostatistics',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/bstt/'
+    },
+    'BVIS': {
+        'name': 'Biomedical Visualization',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/bvis/'
+    },
+    'CHE': {
+        'name': 'Chemical Engineering',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/che/'
+    },
+    'CI': {
+        'name': 'Curriculum and Instruction',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ci/'
+    },
+    'CLJ': {
+        'name': 'Criminology, Law, and Justice',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/clj/'
+    },
+    'CME': {
+        'name': 'Civil, Materials & Environmental Engineering',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/cme/'
+    },
+    'COMM': {
+        'name': 'Communication',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/comm/'
+    },
+    'DES': {
+        'name': 'Design',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/des/'
+    },
+    'ECE': {
+        'name': 'Electrical & Computer Engineering',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ece/'
+    },
+    'EAES': {
+        'name': 'Earth and Environmental Sciences',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/eaes/'
+    },
+    'IE': {
+        'name': 'Industrial Engineering',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ie/'
+    },
+    'STAT': {
+        'name': 'Statistics',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/stat/'
+    },
+    'MCS': {
+        'name': 'Mathematical Computer Science',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/mcs/'
+    },
+    'PSCH': {
+        'name': 'Psychology',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/psch/'
+    },
+    'ART': {
+        'name': 'Art',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/art/'
+    },
+    'IDS': {
+        'name': 'Information and Decision Sciences',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ids/'
+    },
+    'HIM': {
+        'name': 'Health Information Management',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/him/'
+    },
+    'PPOL': {
+        'name': 'Public Policy',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/ppol/'
+    },
+    'UPP': {
+        'name': 'Urban Planning and Policy',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/upp/'
+    },
+    'US': {
+        'name': 'Urban Studies',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/us/'
+    },
+    'PA': {
+        'name': 'Public Administration',
+        'url': 'https://catalog.uic.edu/ucat/course-descriptions/pa/'
     }
-    # Add more departments as needed
 }
 
 def main(departments=None):
