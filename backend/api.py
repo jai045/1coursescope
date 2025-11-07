@@ -6,6 +6,11 @@ import os
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})  # Allow all origins for development
 
+@app.get("/")
+def home():
+    return {"ok": True, "service": "CourseScope API", "docs": "/api/majors"}
+
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATABASE = os.path.join(BASE_DIR, 'uic_courses.db')
 
